@@ -18,10 +18,10 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am currently 21 years old residing in Philippines.I am student
-              that is aspiring to be a web developer. I am passionate about
-              learning things that is related to programming especially back end
-              side.
+              I am currently 22 years old residing in Philippines. I am a BSIT
+              fresh graduate that is aspiring to be a web developer. I am
+              passionate about learning things that is related to programming
+              especially back end side.
             </p>
           </div>
         </div>
