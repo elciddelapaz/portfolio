@@ -5,6 +5,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaFacebook,
+  FaFacebookF,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -108,6 +109,14 @@ const Navbar = () => {
               href="https://github.com/elciddelapaz"
             >
               Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-800">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://www.facebook.com/elcidlang/"
+            >
+              Facebook <FaFacebookF size={30} />
             </a>
           </li>
         </ul>
