@@ -50,6 +50,12 @@ const Work = () => {
             <div>
               <h1 className="text-2xl font-bold">Purchasing System</h1>
               <p>A purchasing system made with Angular and MongoDB.</p>
+              <a
+                href="https://daps-ps.netlify.app/"
+                class="font-medium hover:underline"
+              >
+                View Demo
+              </a>
             </div>
           </div>
           <div className="group container rounded-md flex items-center mx-auto">
@@ -62,6 +68,12 @@ const Work = () => {
                 A telemedicine web application made using ReactJS (MUI),
                 MongoDB, Express, and NodeJS.
               </p>
+              <a
+                href="https://telemed.adventistmed.org/"
+                class="font-medium hover:underline"
+              >
+                View Demo
+              </a>
             </div>
           </div>
           <div className="group container rounded-md flex items-center mx-auto">
@@ -71,7 +83,8 @@ const Work = () => {
             <div>
               <h1 className="text-2xl font-bold">RFID Payment System</h1>
               <p>
-                A payment system created using Python 3.10, MongoDB, and QT5.
+                A desktop application payment system created using Python 3.10,
+                MongoDB, and QT5.
               </p>
             </div>
           </div>
