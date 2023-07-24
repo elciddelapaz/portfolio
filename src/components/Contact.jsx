@@ -1,49 +1,49 @@
 import React from "react";
 
-const Contact = () => {
+export default function Contact() {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
+      className="w-full h-screen bg-black flex justify-center items-center p-4 text-rose-50"
     >
       <form
         method="POST"
         action="https://getform.io/f/b51c785c-6532-4a60-bac3-1f891ede4c00"
         className="flex flex-col max-w-[600px] w-full"
       >
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
+        <div>
+          <p className="text-4xl font-bold inline border-b-4 border-rose-600">
             Contact
           </p>
-          <p className="text-gray-300 py-4">
-            // Submit the form below or shoot me an email -
-            elcid.delapaz@gmail.com
+          <p className="py-4">
+            Submit the form below or send me an email -{" "}
+            <span className="font-bold text-red-200">
+              elcid.delapaz@gmail.com
+            </span>
           </p>
         </div>
         <input
-          className="bg-[#ccd6f6] p-2"
+          className="bg-rose-50 p-2 text-black rounded-full placeholder-black"
           type="text"
           placeholder="Name"
           name="name"
         />
         <input
-          className="my-4 p-2 bg-[#ccd6f6]"
+          className="my-4 p-2 bg-rose-50 text-black rounded-full placeholder-black"
           type="email"
           placeholder="Email"
           name="email"
         />
         <textarea
-          className="bg-[#ccd6f6] p-2"
+          className="bg-rose-50 p-2 text-black rounded-3xl resize-none placeholder-black"
           name="message"
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
+        <button className="text-white border-2 hover:bg-rose-600 hover:border-rose-600 px-4 py-2 my-8 mx-auto flex items-center rounded-md">
           Send
         </button>
       </form>
     </div>
   );
-};
-
-export default Contact;
+}

@@ -5,8 +5,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 
-
-function App() {
+export default function App() {
   return (
     <div>
       <Navbar />
@@ -18,5 +17,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
