@@ -11,10 +11,7 @@ export default function Work() {
             Work
           </p>
         </div>
-
-        {/* Container */}
         <div className="grid sm:grid-cols-2 gap-4">
-          {/* Grid Item */}
           <div className="">
             <div className="group container rounded-md flex justify-center items-center mx-auto ">
               <img src={Purchasing} className="w-full h-full" />
