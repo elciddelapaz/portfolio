@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div name="home" className="w-full h-screen bg-black">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-rose-300 font-semibold p-2">Hi, I am</p>
+        <p className="text-rose-300 font-semibold pl-2">Hi, I am</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-rose-50 p-2">
           Elcid Dela Paz
         </h1>
