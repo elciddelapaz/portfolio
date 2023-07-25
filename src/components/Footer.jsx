@@ -10,10 +10,13 @@ export default function Footer() {
           <div className="flex flex-col items-center gap-4">
             <h1 className="font-bold text-xl">Socials</h1>
             <div className="flex gap-4 mb-4">
-              <a href="https://www.facebook.com/elcidlang/">
+              <a href="https://www.facebook.com/elcidlang/" target="_blank">
                 <FaFacebookF size={30} />
               </a>
-              <a href="https://www.linkedin.com/in/elcid-dela-paz-91a9a6202">
+              <a
+                href="https://www.linkedin.com/in/elcid-dela-paz-91a9a6202"
+                target="_blank"
+              >
                 <FaLinkedin size={30} />
               </a>
               <a href="mailto:elcid.delapaz@gmail.com">
