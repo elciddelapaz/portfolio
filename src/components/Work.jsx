@@ -56,11 +56,6 @@ export default function Work() {
                   A telemedicine web application made using ReactJS (MUI),
                   MongoDB, Express, and NodeJS.
                 </p>
-                <button className="bg-rose-600 hover:bg-rose-400 text-white font-bold py-2 px-4 border-b-4 border-rose-700 hover:border-rose-500 rounded">
-                  <a href="https://telemed.adventistmed.org/" target="_blank">
-                    View Demo
-                  </a>
-                </button>
               </div>
             </div>
           </div>
