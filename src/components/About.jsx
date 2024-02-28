@@ -1,17 +1,5 @@
 import React from "react";
-const age = () => {
-  const currentDate = new Date();
-  let age = currentDate.getFullYear() - 2000;
-  const birthdate = new Date("08-31-2000");
-  let monthDiff = currentDate.getMonth() - birthdate.getMonth();
-  if (
-    monthDiff < 0 ||
-    (monthDiff === 0 && currentDate.getDate() < birthdate.getDate())
-  ) {
-    age--;
-  }
-  return age;
-};
+
 export default function About() {
   return (
     <div
@@ -33,9 +21,9 @@ export default function About() {
           </div>
           <div>
             <p className="text-justify">
-              I am currently {age()} years old residing in Philippines. I am a
-              BSIT graduate that is aspiring to be a web developer. I am
-              passionate about learning things that is related to programming.
+              I am currently 22 years old residing in Philippines. I am a BSIT
+              graduate that is aspiring to be a web developer. I am passionate
+              about learning things that is related to programming.
             </p>
           </div>
         </div>
