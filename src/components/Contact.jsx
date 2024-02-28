@@ -23,19 +23,19 @@ export default function Contact() {
           </p>
         </div>
         <input
-          className="bg-rose-50 p-2 text-black rounded-full placeholder-black"
+          className="bg-rose-50 p-2 text-black rounded-md placeholder-black"
           type="text"
           placeholder="Name"
           name="name"
         />
         <input
-          className="my-4 p-2 bg-rose-50 text-black rounded-full placeholder-black"
+          className="my-4 p-2 bg-rose-50 text-black rounded-md placeholder-black"
           type="email"
           placeholder="Email"
           name="email"
         />
         <textarea
-          className="bg-rose-50 p-2 text-black rounded-3xl resize-none placeholder-black"
+          className="bg-rose-50 p-2 text-black rounded-md resize-none placeholder-black"
           name="message"
           rows="10"
           placeholder="Message"
