@@ -20,11 +20,11 @@ export default function Work() {
               <div className="grid gap-2 mt-2 grow">
                 <h1 className="text-2xl font-bold">Purchasing System</h1>
                 <p>A purchasing system made using Angular and MongoDB. </p>
-                <button className="bg-rose-600 hover:bg-rose-400 text-white font-bold py-2 px-4 border-b-4 border-rose-700 hover:border-rose-500 rounded">
-                  <a href="https://daps-ps.netlify.app/" target="_blank">
+                <a href="https://daps-ps.netlify.app/" target="_blank">
+                  <button className="bg-rose-600 hover:bg-rose-400 text-white font-bold py-2 px-4 border-b-4 border-rose-700 hover:border-rose-500 rounded">
                     View Demo
-                  </a>
-                </button>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
