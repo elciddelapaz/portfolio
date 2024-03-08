@@ -22,16 +22,16 @@ export default function Home() {
           Philippines. Aspiring to be a full-stack web developer in the future.
         </p>
         <div className="flex gap-4 text-rose-50">
-          <button className="group border-2 px-6 py-3 my-2 flex items-center hover:bg-rose-600 hover:border-rose-600">
-            <Link to="work" smooth={true} duration={500}>
+          <Link to="work" smooth={true} duration={500}>
+            <button className="group border-2 px-6 py-3 my-2 flex items-center hover:bg-rose-600 hover:border-rose-600">
               View Work
-            </Link>
-          </button>
-          <button className="group border-2 px-6 py-3 my-2 flex items-center hover:bg-rose-600 hover:border-rose-600">
-            <a href={pdfUrl} target="_blank">
+            </button>
+          </Link>
+          <a href={pdfUrl} target="_blank">
+            <button className="group border-2 px-6 py-3 my-2 flex items-center hover:bg-rose-600 hover:border-rose-600">
               View Resume
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
       </div>
     </div>
