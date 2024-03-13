@@ -38,8 +38,9 @@ export default function About() {
               skilled in HTML, CSS, JavaScript, and frameworks like React and
               Vue.js for building responsive websites. I'm proficient in
               TailwindCSS for flexible design. On the backend, I work with
-              Node.js, Express.js, and databases like MySQL & MongoDB to ensure
-              smooth performance. I also integrate APIs to add more features.
+              Node.js, Express.js, Laravel, and databases like MySQL & MongoDB
+              to ensure smooth performance. I also integrate APIs to add more
+              features.
             </p>
           </div>
         </div>
