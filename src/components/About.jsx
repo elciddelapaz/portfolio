@@ -20,27 +20,23 @@ export default function About() {
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
-          <div className="sm:text-right pb-8 pl-4">
+          <div className="pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-rose-600">
               About
             </p>
           </div>
-          <div></div>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
-            <p>Hi. I'm Elcid!</p>
-          </div>
+        <div className="max-w-[1000px] w-full grid gap-8 px-4">
           <div>
-            <p className="text-justify">
-              I'm a {age()}-year-old web developer from the Philippines,
-              passionate about creating user-friendly digital experiences. I'm
-              skilled in HTML, CSS, JavaScript, and frameworks like React and
-              Vue.js for building responsive websites. I'm proficient in
-              TailwindCSS for flexible design. On the backend, I work with
-              Node.js, Express.js, Laravel, and databases like MySQL & MongoDB
-              to ensure smooth performance. I also integrate APIs to add more
-              features.
+            <p className="text-lg text-justify font-medium mb-4">
+              Hi there! I'm a 23-year-old web developer with a keen interest in
+              crafting seamless digital experiences. I hold a bachelor's degree
+              in Information Technology from Adventist University of the
+              Philippines, graduating in May 2023. My passion lies in creating
+              minimalist designs that prioritize simplicity and functionality,
+              as showcased in my portfolio. My ultimate goal is to excel as a
+              full-stack developer, and I'm dedicated to continuously refining
+              my skills to achieve that ambition.
             </p>
           </div>
         </div>
