@@ -10,16 +10,20 @@ export default function Home() {
         <h1 className="text-4xl sm:text-7xl font-bold text-rose-50 p-2">
           Elcid Dela Paz
         </h1>
-        {/* <iframe src={pdfUrl} /> */}
         <h2
           className="text-4xl sm:text-7xl font-bold text-rose-600 bg-gradient-to-l bg-clip-text text-transparent from-rose-50 via-rose-500 to-rose-900
             animate-text p-2"
         >
-          Aspiring Web Developer.
+          Junior Full-stack Developer.
         </h2>
-        <p className="text-rose-50 py-4 max-w-[700px] p-2">
-          I am a BSIT graduate that studied at the Adventist University of the
-          Philippines. Aspiring to be a full-stack web developer in the future.
+        <p className="text-rose-50 py-4 max-w-[700px] p-2 text-justify">
+          I graduated with a BSIT degree from Adventist University of the
+          Philippines and have over a year of experience building websites. I'm
+          on a journey to become a full-stack developer and I'm passionate about
+          making websites that users love. I'm skilled in front-end tech like
+          HTML, CSS, JS, React, and Vue.js, and I'm also comfortable with
+          back-end development using Laravel, Node.js, and Express.js. I've
+          worked with databases such as MySQL & MongoDB too.
         </p>
         <div className="flex gap-4 text-rose-50">
           <Link to="work" smooth={true} duration={500}>

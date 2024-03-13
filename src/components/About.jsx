@@ -33,9 +33,13 @@ export default function About() {
           </div>
           <div>
             <p className="text-justify">
-              I am currently {age()} years old residing in Philippines. I am a
-              BSIT graduate that is aspiring to be a web developer. I am
-              passionate about learning things that is related to programming.
+              I'm a {age()}-year-old web developer from the Philippines,
+              passionate about creating user-friendly digital experiences. I'm
+              skilled in HTML, CSS, JavaScript, and frameworks like React and
+              Vue.js for building responsive websites. I'm proficient in
+              TailwindCSS for flexible design. On the backend, I work with
+              Node.js, Express.js, and databases like MySQL & MongoDB to ensure
+              smooth performance. I also integrate APIs to add more features.
             </p>
           </div>
         </div>
